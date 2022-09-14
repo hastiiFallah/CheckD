@@ -8,12 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
     <Folder Include="Components\" />
     <Folder Include="HostBuilders\" />
-    <Folder Include="Stores\" />
-    <Folder Include="ViewModel\" />
-    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CheckD.Domain\CheckD.Domain.csproj" />
   </ItemGroup>
 
 </Project>
